@@ -2,7 +2,7 @@ import React from "react"
 import carro1 from "../../img/bronco.jpg"
 import Parceiros from "../parceiros/Parceiros"
 
-export default function Carros() {
+export default function Carros(param) {
     return(
         <div>
             <figure>
@@ -15,6 +15,7 @@ export default function Carros() {
                 <li>ka</li>
                 <li>Uno</li>
                 <li>Onix</li>
+                <li>{param.nomeCarro}</li>
             </ul>
             <h2>Parceiros</h2>
             <Parceiros />

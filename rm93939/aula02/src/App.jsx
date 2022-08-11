@@ -1,15 +1,22 @@
 import React from "react"
-import Cabecalho from "./components/cabecalho/Cabecalho"
-import Carros from "./components/carros/Carros"
+import Carros from "./components/carros"
 
 export default function App(){
+
+    const aluno = "Thais"
+    const turma = "1TDSVJ"
+    const profs = ["Alê","Ronqui","Sálvio","Michel","Gilberto","Fernando"]
+
+    let nomeCarro = "Nissan kicks"
+
     return(
         <div>
             <h1>ESTUDO SOBRE PROPS</h1>
             <div>
-                <h2>Resolução do EXERCICIO</h2>
-                <Cabecalho />
-                <Carros />
+                <h2>nome aluno : {aluno}</h2>      
+
+                <Carros novoCarro={nomeCarro}/>
+
             </div>
         </div>
     )   
