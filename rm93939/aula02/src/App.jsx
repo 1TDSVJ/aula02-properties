@@ -1,7 +1,7 @@
 import React from "react"
 import Carros from "./components/carros"
-
-export default function App(){
+import ListaDeAluno from "./components/listaDeAlunos/ListaDeAlunos"
+export default function App() {
 
     const aluno = "Thais"
     const turma = "1TDSVJ"
@@ -15,7 +15,7 @@ export default function App(){
             <div>
                 <h2>nome aluno : {aluno}</h2>      
 
-                <Carros novoCarro={nomeCarro}/>
+                <ListaDeAluno alunoProps={aluno} turmaProps={turma} profsProps={profs}/>
 
             </div>
         </div>
