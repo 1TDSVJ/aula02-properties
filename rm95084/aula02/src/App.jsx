@@ -1,5 +1,4 @@
 import React from "react";
-import Carros from "./components/carros/Carros";
 import ListaDeAlunos from "./components/listaDeAlunos/ListaDeAlunos";
 
 
@@ -20,3 +19,4 @@ const App = () => {
 };
 
 export default App;
+
