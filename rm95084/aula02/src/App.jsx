@@ -8,7 +8,6 @@ const App = () => {
     const aluno = "Lucas"
     const turma = "1TDSVJ"
     const profs = ["Alexandre", "Ronqui", "Salvio", "Michel", "Gilberto", "Fernando"]
-    let car = "Nissa Kicks"
   return (
     <div>
       <h1>Estudo sobre props</h1>
