@@ -15,6 +15,7 @@ const Carros = (props) => {
             <li>Fusca</li>
             <li>Uno</li>
             <li>Onix</li>
+            <li>{props.car}</li>
         </ul>
         <h2>Parceiros</h2>
         <Parceiros />
