@@ -1,5 +1,6 @@
 import React from "react"
 import carro1 from "../../img/bronco.jpg"
+import Parceiros from "../parceiros/Parceiros"
 
 export default function Carros() {
     return(
@@ -15,6 +16,8 @@ export default function Carros() {
                 <li>Uno</li>
                 <li>Onix</li>
             </ul>
+            <h2>Parceiros</h2>
+            <Parceiros />
         </div>
     )
 }
